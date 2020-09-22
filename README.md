@@ -14,3 +14,4 @@ then loops through required tools and tries to install if is root, if not - make
 - [running_as_root_check.sh](./running_as_root_check.sh) - check if user is running as root and suggest to run as one. 
 - [sample_JSON_call.sh](./sample_JSON_call.sh) - Sample how to call API endpoint which consumes JSON
 - [sample_FILE_UPLOAD_call.sh](./sample_FILE_UPLOAD_call.sh) - Sample how to call API endpoint and upload file together with multiform request. 
+- [sample_kill_processes_by_name.sh](./sample_kill_processes_by_name.sh) - Kill processes by name
