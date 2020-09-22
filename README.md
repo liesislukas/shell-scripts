@@ -13,3 +13,4 @@ then loops through required tools and tries to install if is root, if not - make
 - [define_basedir_when_calling_script.sh](./define_basedir_when_calling_script.sh) - user enters directory to work with as 1st param. e.g. `cmd .` would set base dir to same dir as cmd is called from
 - [running_as_root_check.sh](./running_as_root_check.sh) - check if user is running as root and suggest to run as one. 
 - [sample_JSON_call.sh](./sample_JSON_call.sh) - Sample how to call API endpoint which consumes JSON
+- [sample_FILE_UPLOAD_call.sh](./sample_FILE_UPLOAD_call.sh) - Sample how to call API endpoint and upload file together with multiform request. 
