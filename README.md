@@ -10,6 +10,7 @@ then loops through required tools and tries to install if is root, if not - make
 - [fn_download.sh](./fn_download.sh) -  It's from Trafikito agent installation. It has a list of files to be downloaded from API endpoint and it just tries to get it. Has some retry mechanism in case of network issues.
 
 ## Else 🤯
+- [promt_2.sh](./promt_2.sh) - another way to promt. This time direct "yes" answer is required
 - [define_basedir_when_calling_script.sh](./define_basedir_when_calling_script.sh) - user enters directory to work with as 1st param. e.g. `cmd .` would set base dir to same dir as cmd is called from
 - [running_as_root_check.sh](./running_as_root_check.sh) - check if user is running as root and suggest to run as one. 
 - [sample_JSON_call.sh](./sample_JSON_call.sh) - Sample how to call API endpoint which consumes JSON
