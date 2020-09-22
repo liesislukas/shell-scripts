@@ -1,4 +1,4 @@
-# shell-scripts
+# shell-scripts 😱
 These are mostly my own built scripts to make things happen. Some are updated by people I hired to check my mess 🎉
 
 Most of these things are copied from trafikito agent code, which is hosted here: https://github.com/Trafikito/agent
