@@ -1,5 +1,5 @@
 # shell-scripts
-These are mostly my own built scripts to make things happen.
+These are mostly my own built scripts to make things happen. Yet some are updated by people i had contact with 🎉
 
 ## Functions
 - [log.sh](./log.sh) - exposes 2 functions `fn_log` and `fn_debug`. also manages logs file.
