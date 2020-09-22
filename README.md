@@ -9,6 +9,11 @@ then loops through required tools and tries to install if is root, if not - make
 - [fn_select_edge.sh](./fn_select_edge.sh) - defines default and then pings several URLs to get the fastest edge available.
 - [fn_download.sh](./fn_download.sh) -  It's from Trafikito agent installation. It has a list of files to be downloaded from API endpoint and it just tries to get it. Has some retry mechanism in case of network issues.
 - [fn_set_os.sh](./fn_set_os.sh) - this will set variables `os`, `os_codename`, `os_release` and `centos_flavor`
+- [fn_send_error.sh](./fn_send_error.sh) - function to log and send an error to API endpoint
+
+
+
+
 ## Else 🤯
 - [promt_2.sh](./promt_2.sh) - another way to promt. This time direct "yes" answer is required
 - [define_basedir_when_calling_script.sh](./define_basedir_when_calling_script.sh) - user enters directory to work with as 1st param. e.g. `cmd .` would set base dir to same dir as cmd is called from
