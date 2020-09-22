@@ -6,7 +6,7 @@ These are mostly my own built scripts to make things happen. Yet some are update
 - [fn_promt.sh](./fn_promt.sh) - confirm action with Y/n and then run if statement by result
 - [fn_install_tools.sh](./fn_install_tools.sh) - when need to check if some tools are available and if not - try to install it or ask user to do it for you. Defined function `fn_install_tools` which is compatible with Debian, RedHat, Alpine, Arch and SuSE package managers. Defines all tools needed with some description for user
 then loops through required tools and tries to install if is root, if not - makes a list for user and prints out. Uses custom [fn_promt.sh](./fn_promt.sh) which can be found in this repo to confirm action.
-
+- [fn_select_edge.sh](./fn_select_edge.sh) - defines default and then pings several URL to get the fastest edge available.
 
 
 ## Else 🤯
