@@ -1,5 +1,12 @@
 #!/usr/bin/env sh
 
+
+###### USAGE #####
+# fn_log "os: $os"
+# fn_log "Some text"
+# fn_debug "os: $os"
+# fn_debug "Some text"
+
 export BASEDIR=$1
 
 # create prev logs file and clear current logs file
