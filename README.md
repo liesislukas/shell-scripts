@@ -1,6 +1,9 @@
 # shell-scripts
-These are mostly my own built scripts to make things happen. Yet some are updated by people i had contact with 🎉
- 
+These are mostly my own built scripts to make things happen. Some are updated by people I hired to check my mess 🎉
+
+Most of these things are copied from trafikito agent code, which is hosted here: https://github.com/Trafikito/agent
+
+
 ## Functions 🧐
 - [log.sh](./log.sh) - exposes 2 functions `fn_log` and `fn_debug`. also manages logs file.
 - [fn_promt.sh](./fn_promt.sh) - confirm action with Y/n and then run if statement by result
@@ -10,9 +13,6 @@ then loops through required tools and tries to install if is root, if not - make
 - [fn_download.sh](./fn_download.sh) -  It's from Trafikito agent installation. It has a list of files to be downloaded from API endpoint and it just tries to get it. Has some retry mechanism in case of network issues.
 - [fn_set_os.sh](./fn_set_os.sh) - this will set variables `os`, `os_codename`, `os_release` and `centos_flavor`
 - [fn_send_error.sh](./fn_send_error.sh) - function to log and send an error to API endpoint
-
-
-
 
 ## Else 🤯
 - [promt_2.sh](./promt_2.sh) - another way to promt. This time direct "yes" answer is required
