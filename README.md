@@ -15,3 +15,4 @@ then loops through required tools and tries to install if is root, if not - make
 - [sample_JSON_call.sh](./sample_JSON_call.sh) - Sample how to call API endpoint which consumes JSON
 - [sample_FILE_UPLOAD_call.sh](./sample_FILE_UPLOAD_call.sh) - Sample how to call API endpoint and upload file together with multiform request. 
 - [sample_kill_processes_by_name.sh](./sample_kill_processes_by_name.sh) - Kill processes by name
+- [sample_find_and_config_autorun.sh](./sample_find_and_config_autorun.sh) - Chek if systemd, System V or openRC is available on server and configure running Trafikito agent on one of these mechanics. Also prepare remove script.
