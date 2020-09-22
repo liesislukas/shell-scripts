@@ -32,7 +32,7 @@ fn_download 4 lib/trafikito_agent.sh
 fn_download 5 lib/set_os.sh
 
 
-########################################## 2nd sample of similart thing ###################
+########################################## 2nd sample of similar thing ###################
 fn_get_download_endpoint()
 {
  echo "$API_EDGE/v2/agent/get_agent_file?file=$1"
