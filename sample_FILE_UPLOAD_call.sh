@@ -1,3 +1,5 @@
+TMP_FILE="/path/to/file.tmp"
+
 echo "* Getting available commands file & setting default dashboard"
 curl --request POST --silent --retry 3 --retry-delay 1 --max-time 30 \
      --url    "$API_EDGE/v2/agent/get_agent_file?file=available_commands.sh" \
